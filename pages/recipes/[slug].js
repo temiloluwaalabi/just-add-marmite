@@ -19,7 +19,7 @@ export const getStaticPaths = async () => {
     }
   })
 
-  if(!items.length){
+  if(!res.items.length){
     return{
       redirect: {
         destination: '/',
